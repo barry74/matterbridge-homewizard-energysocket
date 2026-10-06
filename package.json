@@ -1,0 +1,29 @@
+{
+  "name": "matterbridge-homewizard-energysocket",
+  "version": "1.0.0",
+  "description": "HomeWizard Energy Socket plugin for Matterbridge, with live power in Apple Home",
+  "author": "barry74",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "dist/module.js",
+  "types": "dist/module.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "peerDependencies": {
+    "matterbridge": ">=3.1.0"
+  },
+  "devDependencies": {
+    "matterbridge": "^3.1.0",
+    "typescript": "^5.8.0"
+  },
+  "keywords": [
+    "matterbridge",
+    "matterbridge-plugin",
+    "homewizard",
+    "energy-socket"
+  ]
+}
