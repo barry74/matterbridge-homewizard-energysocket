@@ -7,17 +7,14 @@
   "type": "module",
   "main": "dist/module.js",
   "types": "dist/module.d.ts",
+  "files": ["dist", "README.md"],
   "scripts": {
     "build": "tsc"
   },
   "engines": {
     "node": ">=20.19.0"
   },
-  "peerDependencies": {
-    "matterbridge": ">=3.1.0"
-  },
   "devDependencies": {
-    "matterbridge": "^3.1.0",
     "typescript": "^5.8.0"
   },
   "keywords": [
