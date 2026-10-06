@@ -28,6 +28,6 @@ Config:
 }
 ```
 
-Zet de lokale API aan in de HomeWizard Energy-app. Koppel Matterbridge zelf eenmalig met Apple Home. Het wattage staat op deze Matter-stopcontacten, niet op een Homebridge-tegel.
+Zet de lokale API aan in de HomeWizard Energy-app. Koppel Matterbridge zelf eenmalig met Apple Home. Het wattage staat op deze Matter-stopcontacten, en op een Homebridge-tegel.
 
 De socket levert geen spanning. De plugin vult 230 V in. Stroom wordt uit het vermogen berekend. Totaalverbruik komt uit `total_power_import_t1_kwh`.
